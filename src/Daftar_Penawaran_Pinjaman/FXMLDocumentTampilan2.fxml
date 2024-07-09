@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="940.0" prefWidth="1742.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Daftar_Penawaran_Pinjaman.FXMLDocumentControllerTampilan2">
+    <children>
+        <Text layoutX="472.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Button fx:id="buttonBack" layoutY="876.0" mnemonicParsing="false" onAction="#handleButtonBack" prefHeight="64.0" prefWidth="160.0" text="Back" />
+        <Button fx:id="buttonInvestasi" layoutX="717.0" layoutY="611.0" mnemonicParsing="false" onAction="#handleButtonInvestasi" prefHeight="64.0" prefWidth="160.0" text="Investasi" />
+        <Button fx:id="buttonPinjam" layoutX="910.0" layoutY="611.0" mnemonicParsing="false" onAction="#handleButtonPinjam" prefHeight="64.0" prefWidth="160.0" text="Pinjam" />
+        <Label fx:id="labelUsaha" layoutX="773.0" layoutY="140.0" prefHeight="32.0" prefWidth="196.0" text="Usaha Snack">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Text layoutX="472.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal Investasi">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Text layoutX="472.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pembayaran Terakhir" wrappingWidth="336.255126953125">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Text layoutX="472.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bunga">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Text layoutX="690.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bulan">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Text layoutX="472.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pengembalian Diterima">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Text layoutX="776.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumlah Investasi">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+        <Label fx:id="labelNamaDepan" layoutX="472.0" layoutY="133.0" prefHeight="32.0" prefWidth="61.0" text="Micro">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelNamaBelakang" layoutX="529.0" layoutY="133.0" prefHeight="32.0" prefWidth="51.0" text="Link">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="641.0" layoutY="111.0" prefHeight="22.0" prefWidth="120.0" />
+        <Label fx:id="labelTanggalInvestasi" layoutX="473.0" layoutY="238.0" prefHeight="32.0" prefWidth="185.0" text="30 Januari 2024">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelJumlahInvestasi" layoutX="773.0" layoutY="238.0" prefHeight="32.0" prefWidth="196.0" text="Rp. xxx.xxx.xxx">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelBunga" layoutX="494.0" layoutY="330.0" prefHeight="32.0" prefWidth="51.0" text="20%">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelBulan" layoutX="711.0" layoutY="330.0" prefHeight="32.0" prefWidth="44.0" text="12">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelPengembalianDiterima" layoutX="473.0" layoutY="438.0" prefHeight="32.0" prefWidth="167.0" text="Rp. xxx.xxx">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelPembayaranTerakhir" layoutX="473.0" layoutY="539.0" prefHeight="32.0" prefWidth="167.0" text="29 Januari 2025">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Text layoutX="773.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usaha">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="940.0" prefWidth="1735.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tampilan_Awal.TampilanAwal">
+   <children>
+      <Pane prefHeight="51.0" prefWidth="1735.0" style="-fx-background-color: blue;">
+         <children>
+            <Button fx:id="buttonEvaluasiResiokiKredit" layoutX="995.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: blue;" text="EVALUASI RESIKO KREDIT" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonPenawaranPinjaman" layoutX="1243.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: nblue;" text="PENAWARAN PINJAMAN" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonPelaporanTransaksi" layoutX="1477.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: blue;" text="PELAPORAN TRANSAKSI" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonPencairanDana" layoutX="795.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: blue;" text="PENCAIRAN DANA" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonManajemenPinjaman" layoutX="535.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: blue;" text="MANAJEMEN PINJAMAN" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonPengajuanPinjaman" layoutX="268.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: blue;" text="PENGAJUAN PINJAMAN" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MicroLink">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="paneTampilan" layoutY="61.0" prefHeight="880.0" prefWidth="1735.0" />
+   </children>
+</AnchorPane>

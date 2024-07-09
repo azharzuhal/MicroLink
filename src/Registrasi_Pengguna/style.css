@@ -1,0 +1,51 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #FFFFFF; /* Warna putih untuk latar belakang */
+}
+
+.label-title {
+    -fx-text-fill: #000000; /* Warna hitam untuk teks */
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #DDDDDD;
+    -fx-border-width: 1px;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #AAAAAA;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-max-width: 250px; /* Sesuaikan panjang kotak teks */
+}
+
+.button {
+    -fx-background-color: #1E3A8A; /* Warna biru */
+    -fx-text-fill: #FFFFFF; /* Warna putih */
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+    -fx-max-width: 300px; /* Sesuaikan panjang tombol */
+}
+
+.checkbox {
+    -fx-text-fill: #000000; /* Warna hitam untuk teks */
+}
+
+.hbox-icons {
+    -fx-spacing: 10;
+    -fx-alignment: center-left;
+}
+
+.hbox-icons img {
+    -fx-opacity: 0.5; /* Transparansi ikon */
+}
+
+.hbox-icons .text-field, .hbox-icons .password-field {
+    -fx-background-color: transparent;
+    -fx-border: none;
+}

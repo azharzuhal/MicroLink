@@ -1,0 +1,176 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "MicroLink_6bd859b5"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Tampilan_Awal.MainApp",
+      "projectName": "MicroLink_c4977c56"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Formulir_Pencairan_Dana.MainApp",
+      "projectName": "MicroLink_c4977c56"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "MicroLink_c4977c56"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Evaluasi_Risiko_Kredit.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "EvaluasiRisikoKreditApp",
+      "request": "launch",
+      "mainClass": "Evaluasi_Risiko_Kredit.EvaluasiRisikoKreditApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Tampilan_Awal.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Registrasi_Pengguna.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Formulir_Pencairan_Dana.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Pelaporan_Transaksi.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Daftar_Penawaran_Pinjaman.MainApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "ManajemenPinjamanApp",
+      "request": "launch",
+      "mainClass": "Manajemen_Pinjaman.ManajemenPinjamanApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "PengajuanPinjamanApp",
+      "request": "launch",
+      "mainClass": "Pengajuan_Pinjaman.PengajuanPinjamanApp",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "MicroLink_60cd9761"
+    },
+    {
+      "type": "java",
+      "name": "EvaluasiRisikoKreditApp",
+      "request": "launch",
+      "mainClass": "Evaluasi_Risiko_Kredit.EvaluasiRisikoKreditApp",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "RegistrasiPenggunaApp",
+      "request": "launch",
+      "mainClass": "Registrasi_Pengguna.RegistrasiPenggunaApp",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "ManajemenPinjamanApp",
+      "request": "launch",
+      "mainClass": "Manajemen_Pinjaman.ManajemenPinjamanApp",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "PengajuanPinjamanApp",
+      "request": "launch",
+      "mainClass": "Pengajuan_Pinjaman.PengajuanPinjamanApp",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "Daftar_Penawaran_Pinjaman.MainApp",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Registrasi_Pengguna.Main",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Manajemen_Pinjaman.Main",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Pengajuan_Pinjaman.Main",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "MicroLink_3bc136ba"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)",
+      "request": "launch",
+      "mainClass": "<MainClass>",
+      "classpath": [
+        "lib/jaxb-api-2.3.1.jar",
+        "lib/jaxb-runtime-2.3.1.jar"
+      ]
+    }
+  ]
+}

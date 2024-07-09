@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user>
+        <username>admin</username>
+        <password>admin123</password>
+        <date>2024-07-08</date>
+        <time>18:55:06</time>
+        <daftarSebagai>Pengusaha</daftarSebagai>
+    </user>
+    <user>
+        <username>saya</username>
+        <password>123</password>
+        <date>2024-07-09</date>
+        <time>07:11:46</time>
+        <daftarSebagai>Investor</daftarSebagai>
+    </user>
+</users>

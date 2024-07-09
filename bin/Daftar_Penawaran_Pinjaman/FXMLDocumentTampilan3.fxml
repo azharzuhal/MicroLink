@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="937.0" prefWidth="1734.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Daftar_Penawaran_Pinjaman.FXMLDocumentControllerTampilan3">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="7.0" prefHeight="937.0" prefWidth="433.0" style="-fx-background-color: #CCDBDC;">
+         <children>
+            <ImageView fitHeight="279.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/606587.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Label alignment="CENTER" layoutX="803.0" layoutY="57.0" prefHeight="221.0" prefWidth="627.0" text="Laporan Transaksi">
+         <font>
+            <Font name="System Bold" size="64.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewDaftarPenawaranPinjaman" layoutX="432.0" layoutY="331.0" prefHeight="607.0" prefWidth="1303.0" />
+      <Button fx:id="buttonBack" layoutX="20.0" layoutY="900.0" mnemonicParsing="false" onAction="#handleButtonBackAction" prefHeight="30.0" prefWidth="60.0" text="Back" />
+   </children>
+</AnchorPane>

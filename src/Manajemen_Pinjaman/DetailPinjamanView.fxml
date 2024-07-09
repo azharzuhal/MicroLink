@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="940.0" prefWidth="1742.0" spacing="10" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Manajemen_Pinjaman.DetailPinjamanController">
+    <children>
+        <Label prefHeight="59.0" prefWidth="368.0" style="-fx-font-size: 24p; -fx-font-weight: bold;" text="Detail Peminjaman">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font></Label>
+        <GridPane hgap="10" prefHeight="713.0" prefWidth="1742.0" style="-fx-background-color: CCDBDC;" vgap="10">
+            <children>
+                <Label text="Nama Pengaju:">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+                <Label fx:id="namaPengajuLabel" GridPane.columnIndex="1">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+                
+                <Label text="Jumlah Pinjaman:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+                <Label fx:id="jumlahPinjamanLabel" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+
+                <Label text="Status Pinjaman:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+                <Label fx:id="statusPinjamanLabel" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+
+                <Label text="Tanggal Pengajuan:" GridPane.rowIndex="3">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+                <Label fx:id="tanggalPengajuanLabel" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="34.0" />
+               </font></Label>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+        <Button onAction="#handleKembali" style="-fx-background-color: CCDBDC; -fx-text-fill: 90C2E7; -fx-font-size: 14px; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold; -fx-max-width: 300px;" text="Kembali" />
+    </children>
+</VBox>

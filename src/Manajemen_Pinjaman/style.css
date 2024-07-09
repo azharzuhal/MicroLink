@@ -1,0 +1,35 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #CCDBDC; /* Warna biru */
+    -fx-background-image: url("images/background_pattern.png"); /* Tambahkan gambar latar belakang */
+    -fx-background-size: cover; /* Ukuran gambar latar belakang */
+}
+
+.label-title {
+    -fx-text-fill: #ffffff; /* Warna putih */
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #ffffff;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-max-width: 250px; /* Sesuaikan panjang kotak teks */
+}
+
+.button {
+    -fx-background-color: #ffffff; /* Warna putih */
+    -fx-text-fill: #90C2E7; /* Warna biru */
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+    -fx-max-width: 300px; /* Sesuaikan panjang tombol */
+}

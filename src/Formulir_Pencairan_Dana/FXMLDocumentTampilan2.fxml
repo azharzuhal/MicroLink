@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="940.0" prefWidth="1735.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Formulir_Pencairan_Dana.FXMLDocumentControllerTampilan2">
+    <children>
+        <Pane prefHeight="131.0" prefWidth="1735.0" style="-fx-background-color: blue;">
+            <children>
+                <Text fill="WHITE" layoutX="581.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FORMULIR PENCAIRAN DANA">
+                    <font>
+                        <Font name="System Bold" size="40.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+        <TableView fx:id="tableViewFormulirPencairanDana" layoutY="129.0" prefHeight="765.0" prefWidth="1735.0">
+            <columns>
+                <TableColumn fx:id="colNamaDepan" prefWidth="92.79998779296875" text="Nama Depan" />
+                <TableColumn fx:id="colNamaBelakang" prefWidth="94.39999389648438" text="Nama Belakang" />
+                <TableColumn fx:id="colNomorKTP" prefWidth="72.79998779296875" text="Nomor KTP" />
+                <TableColumn fx:id="colAlamatLengkap" prefWidth="122.4000244140625" text="Alamat Lengkap" />
+                <TableColumn fx:id="colBankPilihan" prefWidth="87.99993896484375" text="Bank Pilihan" />
+                <TableColumn fx:id="colNomorRekening" prefWidth="104.0" text="Nomor Rekening" />
+                <TableColumn fx:id="colNominalPencairan" prefWidth="111.20001220703125" text="Nominal Pencairan" />
+                <TableColumn fx:id="colNomorHandphone" minWidth="0.0" prefWidth="114.39996337890625" text="Nomor Handphone" />
+                <TableColumn fx:id="colAlamatEmail" prefWidth="117.5999755859375" text="Alamat Email" />
+            </columns>
+        </TableView>
+        <Button fx:id="backButton" layoutY="895.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="42.0" prefWidth="103.0" text="Back" />
+    </children>
+</AnchorPane>
